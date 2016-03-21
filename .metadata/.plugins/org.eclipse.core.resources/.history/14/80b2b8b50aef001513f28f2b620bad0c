@@ -1,0 +1,6 @@
+package com.laborer.job;
+
+public interface SimpleLaborJob {
+
+	String getJobName();
+}

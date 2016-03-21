@@ -1,0 +1,10 @@
+package com.laborer.job;
+
+public class LaborJob {
+	
+	private String jobName;
+
+	public String getJobName() {
+		return jobName;
+	}
+}
