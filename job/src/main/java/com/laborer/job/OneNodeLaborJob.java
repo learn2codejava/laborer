@@ -1,5 +1,7 @@
 package com.laborer.job;
 
-public interface OneNodeLaborJob extends LaborJob {
+import com.laborer.job.node.LaborJobNodeSelectionCriteria;
 
+public interface OneNodeLaborJob extends LaborJob {
+	public LaborJobNodeSelectionCriteria getLaborJobNodeSelectionCriteria();
 }

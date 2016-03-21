@@ -1,0 +1,5 @@
+package com.laborer.job.startup;
+
+public interface LaborJobLoader {
+
+}
